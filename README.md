@@ -42,6 +42,8 @@ Analyze only specific residues in the pdb file and write a cubefile to disk with
 Display all possible options
 `./metal3d.py --help`
 
+To solve CUDA memory issue try `--batch-size` option, increasing from 1
+
 # Data
 
 The PDB codes used for training, validation and testing are available in `data`. 
